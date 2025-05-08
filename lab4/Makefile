@@ -1,3 +1,5 @@
+obj-m     += int_stack.o
+
 KMOD      := int_stack
 KSRC      := $(KMOD).c
 USR       := kernel_stack
